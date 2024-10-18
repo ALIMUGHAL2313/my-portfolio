@@ -1,0 +1,59 @@
+h1{
+    font-size: 66px;
+    color: #316FF6;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 36px;
+    color: #fffbfb;
+    font-family: sans-serif;
+    background-color: #042d00;
+
+}
+a{
+    color: blue;
+}
+.box{
+    width: 500px;
+    height: 650px;
+    margin: 60px auto 0;
+    background: #ffffff;
+    text-align: left: ;
+    padding: 35px;
+    border: 5px solid #000000;
+    border-radius: 100px 0 100px 0;
+}
+
+
+        body{
+            background-image: url('e7.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 130vh;
+            background-repeat: no-repeat;
+
+        }
+label{
+    font-size: 20px;
+}        
+span{
+    color: #ff0000;
+}
+input{
+    height: 40px;
+    border-radius: 15px;
+}
+a{
+    color: #042d00;
+}
+p{
+    color: #ff0000;
+}
+button{
+    height: 40px;
+    width: 200px ;
+    border-radius: 15px;
+    background-color: #042d00;
+    color: #ffffff;
+    font-size: 22px;
+}
