@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: black;
+
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.L1 {
+    border: 3px solid orangered;
+    border-radius: 100%;
+}
+
+.L1:hover {
+    transition: 4s;
+    transform: rotateY(0deg);
+    transform: rotateY(90deg);
+    transform: rotateY(180deg);
+    transform: rotateY(2700deg);
+    transform: rotateY(360deg);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+
+.About {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.About h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+span {
+    color: orangered;
+}
+
+.About {
+    color: white;
+    line-height: 22px;
+}
+
+.About a {
+    color: red;
+    background: white;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 36px 0;
+    border-radius: 5px;
+}
+
+.About a:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.images {
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+    height: 100%;
+}
+
+.images:hover .me {
+    left: 45%;
+    cursor: pointer;
+}
+
+/* hire page start*/
+.box {
+    width: 480px;
+    height: 440px;
+    margin: 60px auto 0;
+    background: FF8000;
+    text-align: center;
+    padding: 35px;
+    border: 5px solid #7b746a;
+    border-radius: 100px;
+}
+
+h2 {
+    color: orangered;
+}
+
+input {
+    height: 40px;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 4px;
+
+}
+
+button {
+    height: 40px;
+    border-radius: 15px;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+span {
+    color: orangered;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.whatsapp {
+    float: right;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 90px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.4);
+    transition: 1s;
+
+}
