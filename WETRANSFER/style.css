@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+}
+
+.left {
+  flex: 50%;
+  background-color: #093F31;
+}
+
+.right {
+  flex: 50%;
+  background-color: #ffffff;
+}
+
+.btn-close {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: flex-start;
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  cursor: pointer;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  font-size: 25px;
+}
+
+.left-img {
+  text-align: center;
+  position: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.btn-close:hover {
+  opacity: 0.7;
+  background-color: black;
+
+}
+
+.right {
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.b1 {
+  height: 40px;
+  width: 200px;
+  border: 5px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 22px;
+  background-color: #093F31;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.last {
+  height: 40px;
+  width: 380px;
+  border: 0;
+  background-color: #093F31;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+input {
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+
+hr {
+  margin-top: 20px;
+
+}
+
+p {
+  margin: -12px auto 10px;
+  width: 30px;
+  background: #ffffff;
+}
+
+.sign-up-form {
+  width: 450px;
+  height: 90vh;
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+
+
+}
+
+i {
+  position: relative;
+  left: 30px;
+  top: 0;
+  height: 100%;
+  color: #093F31;
+}
+
+.ggbtn {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 120px;
+  height: 60px;
+}
+
+.fbbtn {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 120px;
+  height: 60px;
+}
+
+.fbbtn:hover {
+  opacity: 0.7;
+  background-color: black;
+  cursor: pointer;
+
+
+}
+
+.ggbtn:hover {
+  opacity: 0.7;
+  background-color: black;
+  cursor: pointer;
+}
